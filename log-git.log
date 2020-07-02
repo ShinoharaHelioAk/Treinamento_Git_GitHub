@@ -1,0 +1,70 @@
+[33mcommit 620b313ed7cd8b93d49659a48ec327a4820b3026[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/teste-aula2[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mteste-aula2[m[33m)[m
+Author: Hélio Shinohara <strokestyle.shinohara@gmail.com>
+Date:   Thu Jul 2 16:34:18 2020 -0300
+
+    Commit final Aula 2
+
+[33mcommit 4a258e833bd566b675ecb8fef07e05c62f6f0884[m
+Author: Hélio Shinohara <strokestyle.shinohara@gmail.com>
+Date:   Thu Jul 2 16:21:01 2020 -0300
+
+    Alterações nova branch
+
+[33mcommit d5cfbf00a1ba6c6cef0e1451c534fa485c28cf35[m
+Author: Hélio Shinohara <strokestyle.shinohara@gmail.com>
+Date:   Thu Jul 2 16:06:24 2020 -0300
+
+    teste nova branch
+
+[33mcommit fb51a9320a412f77de1f5ec4fa2826700940f9de[m
+Author: Hélio Shinohara <strokestyle.shinohara@gmail.com>
+Date:   Thu Jul 2 14:53:01 2020 -0300
+
+    Conteúdo da Aula
+
+[33mcommit 455fea1a2bccdf2eb6975e2bdd57a7e53f294328[m
+Author: Hélio Shinohara <strokestyle.shinohara@gmail.com>
+Date:   Thu Jul 2 14:29:49 2020 -0300
+
+    Inclusão de comentários nas linhas 3 e 4.
+
+[33mcommit a4b76c9e82e6f375cb64b96073b558a382512267[m
+Author: Hélio Shinohara <strokestyle.shinohara@gmail.com>
+Date:   Thu Jul 2 14:23:55 2020 -0300
+
+    primeiro commit
+
+[33mcommit be65718943acb336dc062c392cb9ef439e8f1f55[m
+Author: Hélio Shinohara <38836108+ShinoharaHelioAk@users.noreply.github.com>
+Date:   Mon Jun 22 16:49:46 2020 -0300
+
+    Delete README.md
+
+[33mcommit 17dcfeefa9c26ee408a8c22bbc72f515683fa859[m
+Merge: 6cff971 7a1ad8c
+Author: ShinoharaHelioAk <38836108+ShinoharaHelioAk@users.noreply.github.com>
+Date:   Sun Apr 29 11:26:56 2018 -0300
+
+    Merge pull request #1 from ShinoharaHelioAk/reame-edits
+    
+    Reame edits
+
+[33mcommit 7a1ad8c795f4f29875ee3227f951139c8f4c88da[m[33m ([m[1;31morigin/reame-edits[m[33m)[m
+Author: ShinoharaHelioAk <38836108+ShinoharaHelioAk@users.noreply.github.com>
+Date:   Sun Apr 29 11:19:31 2018 -0300
+
+    Update README.md
+
+[33mcommit 9a95c6b7fdf965ae391330d9f86784b9b6aed632[m
+Author: ShinoharaHelioAk <38836108+ShinoharaHelioAk@users.noreply.github.com>
+Date:   Sun Apr 29 11:17:03 2018 -0300
+
+    About me
+    
+    Um pouco sobre minhas preferências.
+
+[33mcommit 6cff971c0744deff0b598b87778ae7f78ae48d4a[m
+Author: ShinoharaHelioAk <38836108+ShinoharaHelioAk@users.noreply.github.com>
+Date:   Sun Apr 29 11:06:06 2018 -0300
+
+    Initial commit
