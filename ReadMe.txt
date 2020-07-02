@@ -36,9 +36,16 @@ git checkout master
 git checkout teste_aula2
 - Altera o apontamento da branch na qual você está trabalhando no repositório local .git .
 
+git merge teste_aula2
+- Com o git apontando para a branch master, o comando executa um merge das alterações feitas na outra branch.
 
+git add .
+git add 'ReadMe.txt'
+- Adiciona arquivos no repositório local e na branch na qual está apontada.
+- Nesse caso, será na branch master.
+- Você pode discriminar os arquivos que você quer adicionar ou adicionar todos de uma vez, usando '.'.
 
+git commit -m 'mensagem'
 
-
-
+git push origin master
 
