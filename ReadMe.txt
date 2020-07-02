@@ -15,7 +15,7 @@ git remote add origin <url_repository_github>
 - Adiciona o repositório do GitHub no repositório Git para commits no GitHub.
 
 git push origin master
-- Sobe arquivos novos ou alterados do repositório local .git para o reposítório GitHub.
+- Sobe arquivos novos ou alterados do repositório local .git para o repositório GitHub.
 - Normalmente ele pede usuário e senha do GitHub.
 
 
@@ -25,4 +25,20 @@ Arquivo de Readme - 02/07/2020 (quinta-feira) 16:01:29
 
 git checkout -b <new branch name>
 - Cria uma nova branch no repositório local .git
-- 
+
+git commit -m 'mensagem'
+
+git push origin <new_branch_name>
+- Sobe arquivos novos ou alterados do repositório local .git para o repositório GitHub, na branch especificada.
+- Normalmente ele pede usuário e senha do GitHub.
+
+git checkout master
+git checkout teste_aula2
+- Altera o apontamento da branch na qual você está trabalhando no repositório local .git .
+
+
+
+
+
+
+
