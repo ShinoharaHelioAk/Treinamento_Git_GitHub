@@ -1,4 +1,4 @@
-Arquivo de Readme - 26/10/2020 (segunda-feira) 16:06:12
+Arquivo de Readme - 26/10/2020 (segunda-feira) 16:23:50
 Arquivo de Readme - 02/07/2020 (quinta-feira) 14:22:50
 
 git init
@@ -19,10 +19,21 @@ git -a -m 'mensagem'
 
 git remote add origin <url_repository_github>
 - Adiciona o repositório do GitHub no repositório Git para commits no GitHub.
+git remote
+- Lista todos os repositórios remotos que o meu repositório local conhece.
+git remote -v
+- Lista todos os repositórios remotos que o meu repositório local conhece, mais o caminho deles.
+git remote add local C:/Users/ALURA/Documents/git-e-github/servidor
+git remote rename origin local
+- Altera o nome dado a um repositório remoto.
 
 git push origin master
 - Sobe arquivos novos ou alterados do repositório local .git para o repositório GitHub.
 - Normalmente ele pede usuário e senha do GitHub.
+
+git clone <caminho_do_repositorio_remoto> <pasta_que_sera_criada_para_guardar_o_repositorio__opcional>
+- Exemplo: git clone /c/Users/ALURA/Documents/git-e-github/servidor projeto
+- Comando utilizado para baixar um repositório do servidor.
 
 
 
