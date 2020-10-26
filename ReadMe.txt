@@ -38,7 +38,7 @@ git clone <caminho_do_repositorio_remoto> <pasta_que_sera_criada_para_guardar_o_
 
 
 Sobre a Aula 2: Branches e Merges
-Arquivo de Readme - 26/10/2020 (segunda-feira) 16:06:36
+Arquivo de Readme - 26/10/2020 (segunda-feira) 17:02:55
 Arquivo de Readme - 02/07/2020 (quinta-feira) 16:01:29
 
 git branch <new branch name>
@@ -66,6 +66,15 @@ git checkout teste_aula2
 
 git merge teste_aula2
 - Com o git apontando para a branch master, o comando executa um merge das alterações feitas na outra branch.
+
+git rebase titulo
+- Pega os commits de uma branch criada e atualiza a branch master com os dados desses commits.
+- Adicionalmente, se a branch master também tiver commits de após a branch titulo ter sido criada, esse comando faz a mescla de todos os commits da branch titulo, mais o(s) commits da branch master no log de commits.
+
+git log --graph
+- Visualiza o log de forma gráfica no terminal.
+
+
 
 git add .
 git add 'ReadMe.txt'
