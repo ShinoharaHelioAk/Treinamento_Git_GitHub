@@ -1,3 +1,4 @@
+Arquivo de Readme - 26/10/2020 (segunda-feira) 16:06:12
 Arquivo de Readme - 02/07/2020 (quinta-feira) 14:22:50
 
 git init
@@ -11,6 +12,11 @@ git add .
 git commit -m 'mensagem'
 - Faz commit dos arquivos adicionados no repositório local.
 
+git -a -m 'mensagem'
+- Adiciona TODOS os arquivos no repositório local.
+- Faz commit dos arquivos adicionados no repositório local.
+- Duas ações no mesmo comando.
+
 git remote add origin <url_repository_github>
 - Adiciona o repositório do GitHub no repositório Git para commits no GitHub.
 
@@ -21,10 +27,19 @@ git push origin master
 
 
 Sobre a Aula 2: Branches e Merges
+Arquivo de Readme - 26/10/2020 (segunda-feira) 16:06:36
 Arquivo de Readme - 02/07/2020 (quinta-feira) 16:01:29
+
+git branch <new branch name>
+- Cria uma nova branch no repositório local .git
+
+git checkout <branch name>
+- Aponta o repositório para a branch especificada.
 
 git checkout -b <new branch name>
 - Cria uma nova branch no repositório local .git
+- Aponta o repositório para a branch especificada.
+- Duas ações no mesmo comando.
 
 git commit -m 'mensagem'
 
@@ -35,6 +50,8 @@ git push origin <new_branch_name>
 git checkout master
 git checkout teste_aula2
 - Altera o apontamento da branch na qual você está trabalhando no repositório local .git .
+
+
 
 git merge teste_aula2
 - Com o git apontando para a branch master, o comando executa um merge das alterações feitas na outra branch.
