@@ -38,8 +38,7 @@ git clone <caminho_do_repositorio_remoto> <pasta_que_sera_criada_para_guardar_o_
 
 
 Sobre a Aula 2: Branches e Merges
-Arquivo de Readme - 26/10/2020 (segunda-feira) 17:02:55
-Arquivo de Readme - 02/07/2020 (quinta-feira) 16:01:29
+Arquivo de Readme - 27/10/2020 (terça-feira) 19:06:44
 
 git branch <new branch name>
 - Cria uma nova branch no repositório local .git
@@ -51,6 +50,9 @@ git checkout -b <new branch name>
 - Cria uma nova branch no repositório local .git
 - Aponta o repositório para a branch especificada.
 - Duas ações no mesmo comando.
+
+git branch <-d/-D> <branch_name>
+- Remove uma branch do repositório. Sendo -D para --force.
 
 git commit -m 'mensagem'
 
@@ -85,5 +87,22 @@ git add 'ReadMe.txt'
 git commit -m 'mensagem'
 
 git push origin master
+
+- Guardando alterações (temporariamente) não adicionadas (git add) e nem comitadas no repositório:
+git stash
+git stash list
+- Lista todos os estados não comitados salvos.
+git stash apply 0
+- Recupera e faz merge do estado que estava guardado na memória do repositório.
+git stash drop 0
+- Remove o estado da lista de stash.
+git stash pop
+- Retira a última alteração guardada na memória stash e aplica no projeto, já fazendo os merges.
+
+- Viajando no tempo:
+git checkout <commit_code>
+- Para gerar uma nova branch com os dados desse commit, usar:
+-- git checkout -b <new_branch> OU
+-- git switch -c <new_branch>
 
 --Conteúdo Adicional
