@@ -1,5 +1,4 @@
 Arquivo de Readme - 26/10/2020 (segunda-feira) 16:23:50
-Arquivo de Readme - 02/07/2020 (quinta-feira) 14:22:50
 
 git init
 - Cria um repositório local .git a partir da pasta que você estiver.
@@ -128,6 +127,15 @@ git diff <commit_code>..<other_commit_code>
 git diff
 - Mostra as alterações atuais do repositório, desde que essas alterações ainda não estejam adicionadas (git add <arquivo(s)>) ou comitadas (git commit -m 'mensagem').
 
+
+
+git tag -a v0.1.0 -m 'Lançando a primeira versão (BETA) da aplicação de cursos'
+- Cria uma tag de versão da aplicação.
+git tag
+- Lista as tags criadas.
+git push local v0.1.0
+- Envia as informações da tag para o servidor.
+- Observação: Ao subir a tag gerada para o repositório do Github, ela será apresentada na guia "Releases".
 
 
 --Conteúdo Adicional
