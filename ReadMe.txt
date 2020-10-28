@@ -73,6 +73,19 @@ git rebase titulo
 - Pega os commits de uma branch criada e atualiza a branch master com os dados desses commits.
 - Adicionalmente, se a branch master também tiver commits de após a branch titulo ter sido criada, esse comando faz a mescla de todos os commits da branch titulo, mais o(s) commits da branch master no log de commits.
 
+
+git log --oneline
+- Mostra dados de commits em apenas uma linha.
+git log -p
+- Mostra com mais detalhes as alterações do commit.
+git log --pretty="format:%H"
+- Mostra somente o hash do commit.
+git log --pretty="format:%h %s"
+- Mostra somente o hash reduzido e a mensagem do commit.
+git log --pretty="format:%h %s %ae"
+- Mostra somente o hash reduzido, a mensagem e o e-mail do autor do commit.
+git log -n 2
+- Mostra APENAS os 2 últimos commits.
 git log --graph
 - Visualiza o log de forma gráfica no terminal.
 
@@ -104,5 +117,17 @@ git checkout <commit_code>
 - Para gerar uma nova branch com os dados desse commit, usar:
 -- git checkout -b <new_branch> OU
 -- git switch -c <new_branch>
+
+
+
+...Vendo as alterações:
+git diff 31eac1e..c707756
+git diff <commit_code>..<other_commit_code>
+- Mostra as alterações feitas a partir de um determinado commit até outro determinado commit.
+
+git diff
+- Mostra as alterações atuais do repositório, desde que essas alterações ainda não estejam adicionadas (git add <arquivo(s)>) ou comitadas (git commit -m 'mensagem').
+
+
 
 --Conteúdo Adicional
