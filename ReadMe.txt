@@ -28,6 +28,7 @@ git remote rename origin local
 git remote remove <name>
 - Remove o repositório remoto apontado no repositório local.
 
+
 git push origin master
 - Sobe arquivos novos ou alterados do repositório local .git para o repositório GitHub.
 - Normalmente ele pede usuário e senha do GitHub.
