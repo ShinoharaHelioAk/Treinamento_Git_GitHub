@@ -1,5 +1,9 @@
 Arquivo de Readme - 26/10/2020 (segunda-feira) 16:23:50
 
+- Criando arquivos na linha de comando do Git Bash:
+touch <filename>
+
+
 git init
 - Cria um repositório local .git a partir da pasta que você estiver.
 
