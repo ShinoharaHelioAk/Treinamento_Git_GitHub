@@ -25,6 +25,8 @@ git remote -v
 git remote add local C:/Users/ALURA/Documents/git-e-github/servidor
 git remote rename origin local
 - Altera o nome dado a um repositório remoto.
+git remote remove <name>
+- Remove o repositório remoto apontado no repositório local.
 
 git push origin master
 - Sobe arquivos novos ou alterados do repositório local .git para o repositório GitHub.
