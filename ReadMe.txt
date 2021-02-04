@@ -1,4 +1,26 @@
-Arquivo de Readme - 04/02/2020 (quinta-feira) 12:38:36
+Arquivo de Readme - 04/02/2020 (quinta-feira) 16:30:59
+
+Comandos básicos para um bom desempenho no terminal:
+- Windows                                          |  - Unix
+--- cd                                             |  --- cd
+--- dir                                            |  --- ls
+--- mkdir                                          |  --- mkdir
+--- del (remove apenas arquivos) / rmdir /S /Q
+ (remove a pasta e todos os arquivos dentro dela)  |  --- rm -rf (remove a pasta e todos os arquivos dentro dela)
+--- cls                                            |  --- CTRL+L
+--- echo hello > hello.txt                         |  --- echo hello > hello.txt
+--- cd ..                                          |  --- cd ..
+
+openssl sha1 <file.extension>
+- Comando para verificar o código sha1 de um arquivo, e suas modificações:
+
+Objetos internos do Git
+- BLOBS
+--- echo 'conteudo' | git hash-object --stdin
+--- echo 'conteudo' | openssl sha1
+- TREES
+- COMMITS
+
 
 - Criando arquivos na linha de comando do Git Bash:
 touch <filename>
@@ -63,6 +85,10 @@ git config user.name
 - Comando usado para verificar o nome cadastrado no repositório.
 git config user.email
 - Comando usado para verificar o e-mail cadastrado no repositório.
+git config --list
+- Lista todas as configurações do repositório GIT.
+git config --global --unset <configuration>
+- O parâmetro --unset vai retirar a configuração definida.
 
 
 git push origin master
