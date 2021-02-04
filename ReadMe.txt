@@ -25,6 +25,7 @@ git add 'ReadMe.txt'
 git add .
 - Adiciona arquivos no repositório local.
 - Você pode discriminar os arquivos que você quer adicionar ou adicionar todos de uma vez, usando '.'.
+git rm --cached <arquivo(s)> ou . para dar unstage para todos os arquivos do repositório.
 
 *** Revertendo arquivos já adicionados para commit (git add):
 git reset HEAD index.html
