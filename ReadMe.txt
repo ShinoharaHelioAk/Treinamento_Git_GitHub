@@ -12,11 +12,6 @@ git init --bare
 git status
 - Comando para verificar o estado em que o reposítório se encontra.
 
-git add 'ReadMe.txt'
-git add .
-- Adiciona arquivos no repositório local.
-- Você pode discriminar os arquivos que você quer adicionar ou adicionar todos de uma vez, usando '.'.
-
 *** Descartando alterações antes do "git add":
 git checkout -- index.html
 git checkout -- .
@@ -24,6 +19,19 @@ git restore index.html
 git restore .
 - Esses comandos descartam alterações feitas antes de ter sido feito o comando "git add <arquivo(s)>".
 - Observação: "git checkout -- <arquivo(s)>" e "git restore <arquivo(s)>" fazem a mesma coisa.
+***
+
+git add 'ReadMe.txt'
+git add .
+- Adiciona arquivos no repositório local.
+- Você pode discriminar os arquivos que você quer adicionar ou adicionar todos de uma vez, usando '.'.
+
+*** Revertendo arquivos já adicionados para commit (git add):
+git reset HEAD index.html
+git restore --staged index.html
+- Esses comandos revertem os efeitos do comando "git add <arquivo(s)>", mas não desfaz as alterações.
+- Para desfazer as alterações, é preciso executar o comando do tópico "*** Descartando alterações antes do "git add"".
+- Observação: "git reset HEAD <arquivo(s)>" e "git restore --staged <arquivo(s)>" fazem a mesma coisa.
 ***
 
 git commit -m 'mensagem'
