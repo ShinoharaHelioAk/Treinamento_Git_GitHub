@@ -6,6 +6,11 @@ touch <filename>
 
 git init
 - Cria um repositório local .git a partir da pasta que você estiver.
+git init --bare
+- Cria um repositório que vai servir como um servidor de arquivos.
+
+git status
+- Comando para verificar o estado em que o reposítório se encontra.
 
 git add 'ReadMe.txt'
 git add .
