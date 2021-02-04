@@ -1,4 +1,4 @@
-Arquivo de Readme - 26/10/2020 (segunda-feira) 16:23:50
+Arquivo de Readme - 04/02/2020 (quinta-feira) 12:38:36
 
 - Criando arquivos na linha de comando do Git Bash:
 touch <filename>
@@ -54,6 +54,15 @@ git remote rename origin local
 - Altera o nome dado a um repositório remoto.
 git remote remove <name>
 - Remove o repositório remoto apontado no repositório local.
+
+
+git config --local user.name "Seu nome aqui"
+git config --local user.email "seu@email.aqui"
+git config --global
+git config user.name
+- Comando usado para verificar o nome cadastrado no repositório.
+git config user.email
+- Comando usado para verificar o e-mail cadastrado no repositório.
 
 
 git push origin master
