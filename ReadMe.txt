@@ -17,6 +17,15 @@ git add .
 - Adiciona arquivos no repositório local.
 - Você pode discriminar os arquivos que você quer adicionar ou adicionar todos de uma vez, usando '.'.
 
+*** Descartando alterações antes do "git add":
+git checkout -- index.html
+git checkout -- .
+git restore index.html
+git restore .
+- Esses comandos descartam alterações feitas antes de ter sido feito o comando "git add <arquivo(s)>".
+- Observação: "git checkout -- <arquivo(s)>" e "git restore <arquivo(s)>" fazem a mesma coisa.
+***
+
 git commit -m 'mensagem'
 - Faz commit dos arquivos adicionados no repositório local.
 
