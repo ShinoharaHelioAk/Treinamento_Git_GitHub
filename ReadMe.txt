@@ -117,6 +117,10 @@ Arquivo de Readme - 27/10/2020 (terça-feira) 19:06:44
 git branch <new branch name>
 - Cria uma nova branch no repositório local .git
 
+git branch -l
+        -> Lista as branchs existentes no repositório local .git
+           Não é necessário utilizar o parâmetro -l para ter o mesmo resultado.
+
 git checkout <branch name>
 - Aponta o repositório para a branch especificada.
 
