@@ -163,6 +163,10 @@ git log -n 2
 git log --graph
 - Visualiza o log de forma gráfica no terminal.
 
+git show <commit-key>
+        -> Mostra as ações realizadas naquele commit
+
+
 
 
 git add .
