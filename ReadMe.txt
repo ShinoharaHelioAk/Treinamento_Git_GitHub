@@ -103,6 +103,8 @@ git config credential.helper store
         -> Armazena os dados de credenciais já digitados, para não precisar digitar novamente no próximo commit.
 
 
+git pull-> Baixa as atualizações da branch do repositório.
+
 git push origin master
 - Sobe arquivos novos ou alterados do repositório local .git para o repositório GitHub.
 - Normalmente ele pede usuário e senha do GitHub.
