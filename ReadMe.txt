@@ -34,6 +34,10 @@ git init --bare
 git status
 - Comando para verificar o estado em que o reposítório se encontra.
 
+Para criar um arquivo na Bloco de Notas do Windows na pasta desejada:
+- No comando cmd navegar até a pasta.
+- Na pasta, digitar notepad <nome_do_arquivo>.<extensão>
+
 *** Descartando alterações antes do "git add":
 git checkout -- index.html
 git checkout -- .
