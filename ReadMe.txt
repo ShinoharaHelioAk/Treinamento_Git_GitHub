@@ -38,6 +38,12 @@ Para criar um arquivo na Bloco de Notas do Windows na pasta desejada:
 - No comando cmd navegar até a pasta.
 - Na pasta, digitar notepad <nome_do_arquivo>.<extensão>
 
+- Esse comando faz a criação de arquivo no Git Bash, porém é um comando de terminal Linux.
+touch command -> Creates a new File.
+                 Example: Hélio Shinohara@NP270E5JXD2BR MINGW64 ~/Desktop/Projetos/Treinamentos/Git e Github/teste-git (master)
+                          $ touch test-create-file.txt
+						  PS: It is not a git command.
+
 *** Descartando alterações antes do "git add":
 git checkout -- index.html
 git checkout -- .
