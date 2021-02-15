@@ -149,6 +149,12 @@ git checkout teste_aula2
 - Altera o apontamento da branch na qual você está trabalhando no repositório local .git .
 
 
+git checkout <commit-code> -- <arquivo>
+        -> Faz um rollback de uma determinada versão de commit no repositório local .git
+           git log -> Para buscar na linha do tempo a versão desejada.
+           git show <commit-code> -> mostra os dados da alteração de um arquivo.
+
+
 
 git merge teste_aula2
 - Com o git apontando para a branch master, o comando executa um merge das alterações feitas na outra branch.
