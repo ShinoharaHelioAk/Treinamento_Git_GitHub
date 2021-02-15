@@ -99,6 +99,8 @@ git config --list
 - Lista todas as configurações do repositório GIT.
 git config --global --unset <configuration>
 - O parâmetro --unset vai retirar a configuração definida.
+git config credential.helper store
+        -> Armazena os dados de credenciais já digitados, para não precisar digitar novamente no próximo commit.
 
 
 git push origin master
@@ -131,12 +133,14 @@ git checkout -b <new branch name>
 
 git branch <-d/-D> <branch_name>
 - Remove uma branch do repositório. Sendo -D para --force.
+- O nome da branch é obrigatório!
 
 git commit -m 'mensagem'
 
 git push origin <new_branch_name>
 - Sobe arquivos novos ou alterados do repositório local .git para o repositório GitHub, na branch especificada.
 - Normalmente ele pede usuário e senha do GitHub.
+- No entanto, se já estiver na branch que vai subir as alterações no GitHub, poderá omitir a declaração "origin <branch-name>".
 
 git checkout master
 git checkout teste_aula2
